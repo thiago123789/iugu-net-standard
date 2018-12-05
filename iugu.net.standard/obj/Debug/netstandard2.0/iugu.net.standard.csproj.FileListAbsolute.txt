@@ -1,0 +1,8 @@
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\bin\Debug\netstandard2.0\iugu.net.standard.deps.json
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\bin\Debug\netstandard2.0\iugu.net.standard.dll
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\bin\Debug\netstandard2.0\iugu.net.standard.pdb
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\obj\Debug\netstandard2.0\iugu.net.standard.csproj.CoreCompileInputs.cache
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\obj\Debug\netstandard2.0\iugu.net.standard.AssemblyInfoInputs.cache
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\obj\Debug\netstandard2.0\iugu.net.standard.AssemblyInfo.cs
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\obj\Debug\netstandard2.0\iugu.net.standard.dll
+C:\NerdsCode\iugu-standard\iugu.net.standard\iugu.net.standard\obj\Debug\netstandard2.0\iugu.net.standard.pdb
