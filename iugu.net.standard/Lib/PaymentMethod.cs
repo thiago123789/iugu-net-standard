@@ -22,7 +22,7 @@ namespace iugu.net.standard.Lib
 
         public void ChangeBaseUrl(string customerId)
         {
-            BaseURI = $"/customers/{CustomerId}/payment_methods";
+            BaseURI = $"/customers/{customerId}/payment_methods";
         }
         
         public async Task<PaymentMethodModel> GetAsync()
