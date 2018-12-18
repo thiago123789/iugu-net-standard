@@ -13,7 +13,11 @@
     public class PaymentMethodData
     {
         public string token { get; set; }
+        public string holder_name { get; set; }
+        public string bin { get; set; }
         public string display_number { get; set; }
         public string brand { get; set; }
+        public int month { get; set; }
+        public int year { get; set; }
     }
 }

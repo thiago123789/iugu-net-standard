@@ -1,5 +1,6 @@
 ﻿using iugu.net.standard.Entity;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace iugu.net.standard.Lib
@@ -25,9 +26,9 @@ namespace iugu.net.standard.Lib
             BaseURI = $"/customers/{customerId}/payment_methods";
         }
         
-        public async Task<PaymentMethodModel> GetAsync()
+        public async Task<IEnumerable<PaymentMethodModel>> GetAllAsync()
         {
-            return await GetAsync<PaymentMethodModel>().ConfigureAwait(false);
+            return await GetAsync<IEnumerable<PaymentMethodModel>>().ConfigureAwait(false);
         }
         
         public async Task<PaymentMethodModel> GetAsync(string id)
@@ -74,10 +75,14 @@ namespace iugu.net.standard.Lib
         {
             return await DeleteAsync<PaymentMethodModel>(id).ConfigureAwait(false);
         }
-        
-        public async Task<PaymentMethodModel> PutAsync(string id, PaymentMethodModel model)
+
+        public async Task<PaymentMethodModel> PutAsync(string id, string desc)
         {
-            return await PutAsync<PaymentMethodModel>(id, model).ConfigureAwait(false);
+            var value = new
+            {
+                description = desc
+            };
+            return await PutAsync<PaymentMethodModel>(id, value).ConfigureAwait(false);
         }
     }
 }
