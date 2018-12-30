@@ -19,6 +19,11 @@ namespace iugu.net.standard.Lib
             BaseURI = "/payment_token";
         }
 
+        public PaymentToken(string apiKey) : base(new StandardHttpClient(), apiKey: apiKey)
+        {
+            BaseURI = "/payment_token";
+        }
+
         /// <summary>
         /// O Token é uma representação do meio de pagamento do cliente (por ex: seu cartão de crédito), sendo totalmente seguro, de forma que não é possível que 
         /// alguém consiga as informações do cartão de crédito do cliente utilizando esse token. O token é gerado para uma transação específica, tornando-o ainda mais seguro.
